@@ -61,7 +61,7 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.launchgroups.demo"
+      "PACKAGE_NAME": "com.savegreen.app"
     },
     "cordova-plugin-crosswalk-webview": {
       "XWALK_VERSION": "23+",
@@ -69,7 +69,7 @@
       "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
       "XWALK_MODE": "embedded",
       "XWALK_MULTIPLEAPK": "true",
-      "PACKAGE_NAME": "com.launchgroups.demo"
+      "PACKAGE_NAME": "com.savegreen.app"
     }
   },
   "dependent_plugins": {},

@@ -1,6 +1,6 @@
 {
-  "name": "com.launchgroups.demo",
-  "displayName": "Webviews",
+  "name": "com.savegreen.app",
+  "displayName": "SaveGreen",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",

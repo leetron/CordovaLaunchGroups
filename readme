@@ -1,0 +1,26 @@
+les-MacBook-Pro:SaveGreen LucLX$ keytool -genkey -v -keystore savegreen.keystore -alias savegreen -keyalg RSA -keysize 2048 -validity 10000
+Enter keystore password:  
+Re-enter new password: 
+What is your first and last name?
+  [Unknown]:  save green
+What is the name of your organizational unit?
+  [Unknown]:  save green
+What is the name of your organization?
+  [Unknown]:  save green
+What is the name of your City or Locality?
+  [Unknown]:  ho chi minh city
+What is the name of your State or Province?
+  [Unknown]:  ho chi minh city
+What is the two-letter country code for this unit?
+  [Unknown]:  84
+Is CN=save green, OU=save green, O=save green, L=ho chi minh city, ST=ho chi minh city, C=84 correct?
+  [no]:  y
+
+Generating 2,048 bit RSA key pair and self-signed certificate (SHA256withRSA) with a validity of 10,000 days
+	for: CN=save green, OU=save green, O=save green, L=ho chi minh city, ST=ho chi minh city, C=84
+Enter key password for <savegreen>
+	(RETURN if same as keystore password):  
+
+cordova build --release android
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore savegreen.keystore android-x86-release.apk savegreen
+
