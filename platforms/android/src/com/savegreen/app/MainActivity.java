@@ -36,7 +36,7 @@ public class MainActivity extends CordovaActivity
         }
 
         // Set by <content src="index.html" /> in config.xml
-        launchUrl = "https://launchgroups.com/save-green";
+        launchUrl = "https://kohlersavegreen.com/";
         loadUrl(launchUrl);
     }
 }

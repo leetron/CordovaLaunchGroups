@@ -22,6 +22,6 @@ Enter key password for <savegreen>
 	(RETURN if same as keystore password):  
 
 cordova build --release android
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore savegreen.keystore android-x86-release.apk savegreen
-./zipalign -v 4 android-x86-release.apk output.apk
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore savegreen.keystore android-x86-release-unsigned.apk savegreen
+./zipalign -v 4 android-x86-release-unsigned.apk output.apk
 
